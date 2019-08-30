@@ -1,5 +1,5 @@
 FROM alpine:3.4
-MAINTAINER technik@myfoodmap.de
+MAINTAINER mail@ditoy.com
 
 ENV APP_NAME        "default"
 ENV CRON_INTERVAL   "0 4 * * *"
