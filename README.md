@@ -1,4 +1,6 @@
-# graho/backup-gpg-s3
+# ditoy/backup-gpg-s3
+
+forked from https://github.com/grahovam/docker-backup-gpg-s3
 
 A **Docker** container that mounts a volume, compresses it with **XZ Utils**, encrypts it with **GPG** and stores it on **AWS S3**. Very simple and secure. Just 40 lines of code.
 
