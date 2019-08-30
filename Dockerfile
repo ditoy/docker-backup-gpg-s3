@@ -11,6 +11,7 @@ ENV AWS_SECRET_ACCESS_KEY   "secret"
 ENV AWS_DEFAULT_REGION      "eu-central-1"
 
 RUN apk add --update \
+    bash \
     py-pip \
     gpgme \
     xz \
